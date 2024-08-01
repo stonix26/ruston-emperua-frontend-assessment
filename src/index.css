@@ -1,0 +1,7 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.section-heading {
+  @apply h-96 w-full bg-[url("/src/assets/mobile-banner.png")] bg-center md:bg-[url("/src/assets/desktop-banner.png")];
+}
